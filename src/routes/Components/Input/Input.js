@@ -39,17 +39,16 @@ function Input() {
       <div className={styles.passwordBox}>
         <div className={styles.label}>Password </div>
         <input 
-        type={isRevealPwd ? 'text' : 'password'} 
-        value={pwd} 
-        className={styles.inputText} 
-        onChange={handlePwdChange} 
-        placeholder='Password'
+          type={isRevealPwd ? 'text' : 'password'} 
+          value={pwd} 
+          className={styles.inputText} 
+          onChange={handlePwdChange} 
+          placeholder='Password'
         />
         <div className={cx(styles.buttonWrapper, {[styles.changeMintColor] : isRevealPwd})}>    
           <input
             type='button'
             className={styles.eyeToggleInput}
-            isRevealPwd = {isRevealPwd}
             onClick={handleEyeToggleClick}
             aria-label='Eye Toggle button'
           />
