@@ -62,9 +62,3 @@ function Input() {
 }
 
 export default Input
-
-/**
- * isEmailReg과 isEmailEmpty 좀 더 의미있는 변수로 바꾸기.
- * 
- * form 태그에는 submit도 같이 있어줘야지
- */
