@@ -55,7 +55,8 @@ function Dropdown() {
           ).map(data => {
               return (
                 <button 
-                  type='button' 
+                  type='button'
+                  key={data} 
                   className={styles.selectOptions}
                   value={data}
                   onClick={handleOneItemClick}
