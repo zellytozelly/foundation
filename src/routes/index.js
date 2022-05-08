@@ -1,10 +1,12 @@
 import styles from './Routes.module.scss'
 import TodoList from './TodoList'
+import Components from './Components'
 
 function App() {
   return (
     <div className={styles.app}>
-      <TodoList />
+      {/* <TodoList /> */}
+      <Components />
     </div>
   )
 }
