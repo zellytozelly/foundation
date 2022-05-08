@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import styles from './Tab.module.scss'
-import { CheckCircleIcon, EyeOpenIcon, EyeHideIcon } from '../../../assets/svgs'
-
 import {cx} from '../../../styles'
-import classNames from 'classnames'
 
 function Tab() {
   const [activeIndex, setActiveIndex] = useState(0)

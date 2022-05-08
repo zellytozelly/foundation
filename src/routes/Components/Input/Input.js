@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import styles from './Input.module.scss'
 import { CheckCircleIcon, EyeOpenIcon, EyeHideIcon } from '../../../assets/svgs'
-
 import {cx} from '../../../styles'
-import classNames from 'classnames'
 
 function Input() {
 
